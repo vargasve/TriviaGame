@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dokdo" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Tequila!</title>
+    <link rel="shortcut icon" type="img/jpg" href="assets/images/favicon.jpg">
+</head>
+
+<body>
+    <header>Tequila Trivia!</header>
+    <div class="timer"></div>
+
+    <div id="btnStart" onclick="startGame()">Start!</div>
+    <div id="btnOver" onclick="resetGame()">Try again?</div>
+
+    <div class="message-container">
+        <p id="message"></p>
+    </div>
+    
+    <div class="trivia">
+        
+        <div id="question"></div>
+        
+        <button id="ans1"></button>
+        <button id="ans2"></button>
+        <button id="ans3"></button>
+        <button id="ans4"></button>
+
+    </div>
+    <div class="score">
+        <p id="correct"></p>
+        <p id="incorrect"></p>
+        <p id="unanswered"></p>
+    </div>
+
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

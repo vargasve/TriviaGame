@@ -1,0 +1,78 @@
+body {
+	background-image: url(../images/agave1.gif);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Dokdo', cursive;
+	color: #11af72;
+	text-align: left;
+  }
+  
+  header {
+	font-size: 100px;
+	text-align: center;
+  }
+  #question{
+	  font-size: 40px;
+	  background-color: black;
+  }
+
+  #btnStart {
+	font-size: 50px;
+	text-align: center;
+	width: 250px;
+	height: 80px;
+	padding-top: 20px;
+	margin: auto;
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: black;
+  }
+  
+  #btnOver {
+	display: none;
+	font-size: 50px;
+	text-align: center;
+	height: 120px;
+	padding: 20px 80px;
+	margin: auto;
+	cursor: pointer;
+	border-radius: 5px;
+  }
+  
+  .timer {
+	font-size: 50px;
+	margin: 0;
+	display: none;
+  }
+  
+  button {
+	background-color: black;
+	color: #11af72;
+	padding: 1em 3em;
+	margin: 0 1em;
+	font-size: 1em;
+	border-radius: 5px;
+	border-color: #11af72;
+  }
+  
+  .message-container {
+	min-height: 1em;
+	position: absolute;
+	top: 43%;
+	left: calc(50% - 200px);
+	width: 400px;
+	font-size: 3em;
+  }
+  
+  #message {
+	display: none;
+	background-color: black;
+	padding: 0.5em 1em;
+  }
+  
+  .score {
+	display: none;
+	background-color: black;
+	font-size: 50px;
+	color: #11af72;
+  }
